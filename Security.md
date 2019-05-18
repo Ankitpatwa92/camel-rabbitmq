@@ -19,3 +19,14 @@ ssl_options.verify = verify_none
 ssl_options.fail_if_no_peer_cert = true
 listeners.ssl.default = 5671
 ```
+
+
+#### Enable Managemnet pluging to access rabbbitmq from browser
+```rabbitmq-plugins enable rabbitmq_management```
+
+##### How to set admistrator username password in rabbitmq
+```
+sudo rabbitmqctl add_user admin ipsh!1234
+sudo rabbitmqctl set_user_tags 'admin' administrator
+sudo rabbitmqctl set_permissions -p / 'admin' ".*" ".*" ".*"
+```
