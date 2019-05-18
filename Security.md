@@ -1,4 +1,4 @@
-####In Windows rabbitmq.conf file can be created at
+### In Windows rabbitmq.conf file can be created at
 
 ````
 %APPDATA% usually expands to C:\Users\%USERNAME%\AppData\Roaming or similar.
