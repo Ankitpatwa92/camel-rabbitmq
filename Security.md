@@ -26,7 +26,8 @@ listeners.ssl.default = 5671
 
 ##### How to set admistrator username password in rabbitmq
 
-```sudo rabbitmqctl add_user admin ipsh!1234
+```
+sudo rabbitmqctl add_user admin admin@1234
 sudo rabbitmqctl set_user_tags 'admin' administrator
 sudo rabbitmqctl set_permissions -p / 'admin' ".*" ".*" ".*"
 ```
