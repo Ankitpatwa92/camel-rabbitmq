@@ -21,6 +21,9 @@ public class AppController {
 	RmqPublisherService rmqService;
 	
 	
+	/**
+	@Method sendMessageToRmq
+	**/
 	@PostMapping("/sendMessageToRmq")
 	public String sendMessageToRmq(@RequestBody String msg) {
 				
