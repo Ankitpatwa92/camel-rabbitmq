@@ -8,9 +8,9 @@ Fanout
 Header
 Topic
 
-
-
 #Commands
 
 Add vhost
 ```rabbitmqctl add_vhost group1```
+
+#RMQ
