@@ -15,5 +15,6 @@ public class AppBean {
 	public void printMessage(Exchange e) {
 		
 		System.out.println(e.getIn().getBody(String.class));
+		System.out.println("..");
 	}
 }
