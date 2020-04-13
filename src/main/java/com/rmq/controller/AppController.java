@@ -25,6 +25,7 @@ public class AppController {
 	public String sendMessageToRmq(@RequestBody String msg) {
 				
 		rmqService.publishMessage(msg);
+		System.out.println(msg);
 		return "Message Pubished";
 	}
 	
