@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.rmq.service.RmqPublisherService;
 
 /**
- * @author ankit.patwa test
+ * @author
  *
  */
 @RestController
