@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * The Class AppBean.
  *
- * @author ankit.patwa
+ * @author ankit.patwa msa
  */
 @Component
 public class AppBean {
