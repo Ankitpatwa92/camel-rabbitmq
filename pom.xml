@@ -11,7 +11,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<camel.version>2.20.1</camel.version>
-		<camel.rabbitmq.version>2.20.1</camel.rabbitmq.version>
+		<camel.rabbitmq.version>2.25.1</camel.rabbitmq.version>
 	</properties>
 
 	<parent>
